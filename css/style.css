@@ -1,0 +1,144 @@
+/*font-family: 'Courgette', cursive;
+ font-family: 'Pacifico', cursive;
+ font-family: 'Shadows Into Light Two', cursive;
+*/
+
+#contenidos {
+
+	width: 900px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	margin-top: 20px;
+	/*background: black;*/
+	
+}
+
+body {
+
+background-image: url(../multimedia/bk_amarillo.jpg); /*ubicacion del archivo que llevara el background*/
+background-repeat: no-repeat; /*funcion que se utiliza para que cuando la resolucion del cliente sea muy grande no se repita la imagen*/
+background-size: cover; /*auto ajusta automaticamente la apliacion de la ventana*/
+}
+
+h1{
+color:white;
+font-family: 'Shadows Into Light Two', cursive;/*funete para el tituto proncipal en este caso */
+margin-left: 10px;
+font-size: 30px;
+text-align: center;
+}
+
+h2{
+font-family: 'Shadows Into Light Two', cursive;
+margin-left: 10px;
+font-size: 30px;
+text-align: center;
+}
+
+h3{
+font-family: 'Shadows Into Light Two', cursive;
+margin-left: 10px;
+font-size: 20px;
+text-align: center;
+}
+
+header /*aqui encontramos los textos "Objeto Virtual de Aprendizaje y Diseño de sitios Web econ un back ground Gris"*/
+{
+	width: 900px;
+	height: 120px;
+	background: gray;
+	margin-top: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset
+}
+
+nav /*recuadro donde esta contenido los botones de menu inicio, lecturas, multimedia, actividades, autores */
+
+{
+width: 900px;
+height: 50px;
+background: white;
+border-radius: 10px;
+}
+
+
+/*estas son etiquetas para organizar el menu "inicio */
+ul
+{
+margin: auto;
+padding-top:4px;
+margin-top: 20px;
+}
+
+
+li /*configuracion para los botones del menú*/
+{
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: black;
+	margin:3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px white inset; /*esta opcion le da un brillo al borde de los botones del menu*/
+}
+
+section /*afecta los cambios en la seccion para diferenciar el contenido*/
+
+{
+width: 700px;
+background: white;
+height:500px;
+float: left;
+margin-top: 20px;
+border-radius: 10px;
+}
+
+aside
+{
+width: 150px;
+background: white;
+height: 500px;
+float: left;
+margin-left: 20px;
+margin-top: 20px;
+border-radius: 10px;
+}
+
+footer
+{
+width: 900px;
+height: 60px;
+background: purple;
+float: left;
+border-radius: 10px;
+margin-top: 20px;/*establece el margen superior del footer*/
+margin-bottom: 30px;
+}
+
+p /*hace referencia al parrafo qeuesta debajo de laimagen*/
+{
+
+font-size: 15px;
+font-weight: bolder;
+line-height: 22px;
+padding: 10px;
+text-align: justify;
+
+}
+
+
+/*clases*/
+
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: white;text-decoration: none;}
+.menu:visited{color: white;text-decoration: none;}
+.menu:hover{color: white;text-decoration: none; text-shadow:0 0 5px white;} /*resalta el xolor del texto de los botones*/
+.menu:active{color: white;text-decoration: none;}
+
+/*seudo clases*/
+
+
+
