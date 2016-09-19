@@ -16,7 +16,7 @@
 
 body {
 
-background-image: url(../multimedia/bk_amarillo.jpg); /*ubicacion del archivo que llevara el background*/
+background-image: url(../multimedia/fondotecing.png); /*ubicacion del archivo que llevara el background*/
 background-repeat: no-repeat; /*funcion que se utiliza para que cuando la resolucion del cliente sea muy grande no se repita la imagen*/
 background-size: cover; /*auto ajusta automaticamente la apliacion de la ventana*/
 }
