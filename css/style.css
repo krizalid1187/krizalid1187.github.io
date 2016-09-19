@@ -37,10 +37,11 @@ text-align: center;
 }
 
 h3{
+color:white;
 font-family: 'Shadows Into Light Two', cursive;
 margin-left: 10px;
 font-size: 20px;
-text-align: center;
+text-align: right;
 }
 
 header /*aqui encontramos los textos "Objeto Virtual de Aprendizaje y Diseño de sitios Web econ un back ground Gris"*/
@@ -109,11 +110,12 @@ footer
 {
 width: 900px;
 height: 60px;
-background: purple;
+background: gray;
 float: left;
 border-radius: 10px;
 margin-top: 20px;/*establece el margen superior del footer*/
 margin-bottom: 30px;
+text-align: left;
 }
 
 p /*hace referencia al parrafo qeuesta debajo de laimagen*/
